@@ -1,0 +1,53 @@
+@media (max-width: 1230px){
+    .discover-img{
+        width: 500px;
+    }
+}
+@media (max-width: 1150px){
+    .phones-wrapper{
+        grid-template-rows: 60px repeat(3, 280px);
+    }
+    .box-wrapper{
+    gap: 10px;
+    margin: 10px;
+    }
+    .box-hd{
+        font-size: 1rem;
+    }
+    .box-txt{
+        font-size: .8rem;
+        margin: 0px 0px 30px 0px;
+    }
+    .box-label{
+        font-size: .8rem;
+        width: 30px;
+    }
+    .box-price{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 1020px){
+    .discover-img{
+        width: 350px;
+    }
+    .discover-img-hd{
+        font-size: 20px;
+        padding-top: 20px;
+
+    
+    }
+    .discover-img-txt{
+        font-size: 10px;
+    }
+    .footer-icons i{
+        font-size: 1.2rem;
+    }
+    .footer-icns-bg{
+        padding: 3px;
+    }
+    .footer-icons .footer-icns-bg{
+        font-size: .8rem;
+    }
+
+}
